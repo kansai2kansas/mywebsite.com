@@ -1,0 +1,17 @@
+/* FOR IMAGING ONLY, DO NOT MODIFY THE CSS FILE */
+
+img.resize {
+  max-width:50%;
+  max-height:50%;
+}
+.image{
+position: relative;
+}
+.image a{
+display: block;
+position: absolute;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
