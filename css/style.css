@@ -1,0 +1,66 @@
+:root{/*Default settings are here and will always be followed unless overwritten*/
+	font:normal 0.9em 'Roboto', Arial, sans-serif;/*font-weight, -size, and -family combined*/
+	/*background-color:Gainsboro;/*#DCDCDC*/
+    background:linear-gradient(90deg, HoneyDew, Ivory, FloralWhite);
+}
+
+u{
+    text-decoration-style:double;
+    text-decoration-color:OrangeRed;/*#FF4500*/
+}
+
+#toc_container {
+    background: PapayaWhip /*#FFEFD5*/ none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+h1{/*to ensure that the text can't be selected by user*/
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+#indexpage{/*to ensure that the indexpage can't be selected by user*/
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+h1.light{
+    opacity: 0.5;
+    font-size:95%;
+    font-weight: 100;
+}
+pre{
+    font: inherit;/*must do inherit from root because otherwise the PRE tag will adopt the code editor's font setups*/
+}
+
+code{
+    font:500 105% 'Courier Prime', Courier New, monospace;
+	color:MediumBlue/*2E8B57*/;
+}
+
+samp{
+    font:600 95% 'Courier Prime', Courier New, monospace;
+    color:Teal/*2E8B57*/;
+}
+textarea{
+	width:40%;
+	height:8em;
+	text-align:left;
+	background-color:WhiteSmoke;/*F5F5F5*/
+}

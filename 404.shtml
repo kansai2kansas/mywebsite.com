@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Monsterrat' rel='stylesheet'>
+  <style>
+  body {
+      font-family: 'Monsterrat', Helvetica, sans-serif;
+  }
+  </style>
+      <link rel="stylesheet" href="css/standard.css">
+      <link rel="stylesheet" href="css/image-map.css">
+    <link rel="icon" href="icon.png">
+
+    <title>Whoops!</title>
+
+  </head>
+  <body>
+    <p>THAT PAGE YOU JUST TYPED DOES <strong>NOT</strong> EXIST, SORRY!<br/>
+    Click on the black cat Ella's nose to go back!</p>
+
+    <div class="image">
+      <img class="resize" src="https://i.imgur.com/d8fxrFs.jpg" alt="error" />
+      <!--<a href="javascript:history.back()">Go Back</a>-->
+      <a href="javascript:history.back()" style="top: 32%; left: 15%; width: 5%; height: 7%;"></a>
+      <!--<a href="#" style="top: 32%; left: 15%; width: 5%; height: 7%;" onclick="history.go(-1)"></a>-->
+    </div>
+  <footer style="text-align: center;"><small><small>&copy; <script type="text/javascript">
+    document.write(new Date().getFullYear());
+  </script> Thomas Andrikus</small></small></footer>
+</body>
+</html>
